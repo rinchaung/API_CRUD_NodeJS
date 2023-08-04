@@ -1,0 +1,30 @@
+Get http://localhost:3000/
+
+###
+Get http://localhost:3000/649d49133f9771231b427355
+
+###
+POST http://localhost:3000/create_news
+Content-Type: application/json
+
+{
+    "author": "Naing Kyaw",
+    "title": "Second News",
+    "content": "First News Content"
+}
+
+###
+PATCH http://localhost:3000/update_news/649f5bcec22322267c5a9650
+Content-Type: application/json
+
+{
+    "author": "Aung Aung",
+    "title": "Aung Aung's News",
+    "content": "Aung's lorem Content"
+}
+
+
+###
+DELETE http://localhost:3000/delete_news/649f5c33c22322267c5a965b
+
+
